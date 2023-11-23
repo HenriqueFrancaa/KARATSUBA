@@ -3,9 +3,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-char n1[1001];
-char n2[1001];
-char a;
+
 
 void prints(char *r, int l){
     int i = 0;
@@ -70,6 +68,8 @@ int potencia(int max){
 int main(){
     int p;
     int maxpot;
+    char n1[1001];
+    char n2[1001];
     fgets(n1,1001,stdin);
     fgets(n2,1001,stdin);
     
