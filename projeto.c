@@ -4,7 +4,6 @@
 #include <math.h>
 
 
-
 void prints(char *r, int l){
     int i = 0;
     while(r[i] == '0'){
